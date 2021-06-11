@@ -13,19 +13,7 @@
 
 $(document).ready(function() {
 	
-	originalString = "One, Two, Three, Four, Five six"; 
-    separatedArray = originalString.split(', '); 
 
-    alert(separatedArray[0]);
-	
-	
-	var x = "240,<button type='button' class='btn btn-info glyphicon glyphicon-edit' data-toggle='modal' data-target=''#edit_policy'>";
-	
-	x = x.split(",");
-	
-	//x = x.split("");
-	
-	alert("====== "+x[0]);
      
     $("#example").dataTable( {
     	
