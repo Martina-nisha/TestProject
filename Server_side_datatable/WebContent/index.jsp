@@ -13,7 +13,7 @@
 
 $(document).ready(function() {
 	
-	originalString = "One, Two, Three, Four, Five"; 
+	originalString = "One, Two, Three, Four, Five six"; 
     separatedArray = originalString.split(', '); 
 
     alert(separatedArray[0]);
